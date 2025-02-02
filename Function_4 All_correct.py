@@ -25,8 +25,8 @@ def test_max_number():
     assert max_number(55, 55) == 55, "Ошибка: наибольшее число 55"
     assert max_number(88, 99) == 99, "Ошибка: число 99 больше числа 88"
 
-test_max_number()
 
+test_max_number()
 
 # Вывод наибольшего числа из чисел 1 и 10.
 print(max_number(1, 10))
@@ -40,20 +40,10 @@ for a in even_numbers(31):
         print("Четным числом в списке является: ", a)
 
 
+
 # Выводим автотест
 print(max_number(20, 2))
 print(max_number(-10, -6))
 print(max_number(55, 55)) # AssertionError: Числа равны!
 print(max_number(88, 99))
 print("Все тесты пройдены!")
-
-
-
-
-
-
-
-
-
-
-
